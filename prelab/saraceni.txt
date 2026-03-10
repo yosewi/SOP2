@@ -1,0 +1,23 @@
+22
+Marsyl 20 5
+Elrot 10 3
+Falzaron 9 3
+Korsalis 8 3
+Malpramis 8 3
+Turgis 8 3
+Eskremiz 9 3
+Esturgan 10 3
+Estramarys 10 3
+Margarys 10 3
+Szernubel 10 3
+Malon 10 3
+Justyn 10 3
+Tymozel 10 3
+Sygnorel 10 3
+Esperwarys 10 3
+Abisen 10 3
+Klimboryn 10 3
+Alfajen 10 3
+Waldabron 10 3
+Malkinat 10 3
+Grandonys 20 5

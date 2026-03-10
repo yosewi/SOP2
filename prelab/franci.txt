@@ -1,0 +1,14 @@
+13
+Roland 50 10
+Oliwier 20 5
+Turpin 20 5
+Geryn 12 4
+Gerard 12 4
+Odon 12 4
+Berengar 12 4
+Astor 12 4
+Anceis 12 4
+Żyrard 12 4
+Gajfer 12 4
+Walter 12 4
+Samson 12 4
