@@ -9,7 +9,6 @@
 #include <unistd.h>
 #include <sys/stat.h>
 
-
 #define ERR(source)                                     \
     do                                                  \
     {                                                   \

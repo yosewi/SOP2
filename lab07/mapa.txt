@@ -1,0 +1,28 @@
+aigen:
+etap1. pojedyncze polaczenie, local socket, read i sprawdzenie znaku
+etap2: wiele polaczen epoll, 
+etap3: struktura, dopisywanie, usuwanie ze struktury, wysylanie wiadomosci do klientow, 
+etap4: dodanie tcp socketa
+
+l7:
+clienci: pisanie, czytanie, kodowanie ntohl, htonl.
+server: epoll z maska, dodawanie klientow, czytanie pisanie htonl - zapakowanie do wyslania, 
+ntohl - odczytanie, 
+
+pidsumming:
+etap1: client i server, jedno polaczenie, zlozenie i wyslanie wiadomosci, server - bulk_read
+etap2: klient do tego czyta i robi ntohs, a server pakuje htons, wysyla, to wszystko na epollu, 
+operacje na charach
+
+poslancy:
+etap1: jedno 4-bajtowe polaczenie i odczytanie
+etap2: epoll i limit klientow
+etap3: struktura city, inicjalizowanie jej, zachowywanie klientow w tablicy, operacje na charach,
+rozczlonkowywanie stringa, porownania i wysylka do klientow.
+etap4: dodanie obslugi bledow i poprawne zamykanie wsyzstkiego
+
+prelab:
+etap1: pojedyncze polaczenie tcp
+etap2: epoll, wyslanie welcome message i odbieranie pojedynczych charow od klientow.
+etap3: struct z deskryptorem, connected i intem, inicjalizowanie struktury, operacje na charach,
+porownania, obsluga zapisywania w strukturze i wypisywanie, welcome message z snprintf
